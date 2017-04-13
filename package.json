@@ -1,0 +1,18 @@
+{
+  "name": "clep-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:webpack": "webpack",
+    "build:sass": "node-sass src/quoted.scss > docs/node-sass.css",
+    "build": "run-s build:*"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.2",
+    "npm-run-all": "^4.0.2",
+    "sass-loader": "^6.0.3",
+    "webpack": "^2.3.3"
+  }
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+html {
+  font-family: ヒラギノ角ゴ ProN W3, ＭＳ Ｐゴシック, serif; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0; }
+
+p {
+  font-size: 200%;
+  text-align: center; }
+
+p::after {
+  content: " \263A\FE0F   "; }
